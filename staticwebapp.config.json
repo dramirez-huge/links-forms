@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/politica-datos",
+      "redirect": "https://wpp4docker-front-develop-g6fhe3hxc0d4b9fc.eastus2-01.azurewebsites.net/formulario/149db91b-788b-4806-b011-bd1acd7de51a",
+      "statusCode": 302
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 404
+    }
+  }
+}
